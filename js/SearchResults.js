@@ -25,6 +25,7 @@ var newElement = document.createElement('div');
     newElement.id = cars[c]; newElement.className = "car";
     newElement.innerHTML = cars[c];
     document.body.appendChild(newElement);
+    ///this is just a dummy comment
 
 for (var i in urls){
 
