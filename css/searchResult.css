@@ -1,0 +1,27 @@
+/*css document*/
+#header{
+
+  }
+#resultsGrid{
+
+}
+#filter{
+
+}
+.container {
+    margin: 20px auto;
+}
+#productlist {
+    margin: 20px -15px;
+}
+.pagination {
+    margin: 0;
+}
+@media (min-width: 768px) {
+    #productPager {
+        text-align: left;
+    }
+}
+#pageSize {
+    margin-left:15px;
+}

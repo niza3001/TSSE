@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+    <!--This is the firebase library-->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+	<meta charset="utf-8">
+
+	<title>Welcome to My Laptop Shop!</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css" >
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    </head>
+
+<body>
+
+    <h1 class="logo"><center>MY&nbsp;LAPTOP&nbsp;SHOP</center></h1>
+
+	<div class="container">
+
+		<div id="search">
+
+			<form action="javascript:void(0);" method="GET">
+
+				<fieldset class="clearfix">
+
+					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+					<input type="submit" value="Search" class="button">
+
+				</fieldset>
+
+			</form>
+
+		</div> <!-- end search -->
+
+	</div> <!-- end container -->
+
+    <div class="homepage links">
+
+        <ul class="leftlist">
+
+            <li><strong>Popular Brands:</strong></li>
+            <li><a href="">Apple</a></li>
+            <li><a href="">Dell</a></li>
+            <li><a href="">HP</a></li>
+            <li><a href="">MSI</a></li>
+            <li><a href="">Samsung</a></li>
+            <li><a href="">Lenovo</a></li>
+            <li><a href="">Toshiba</a></li>
+
+        </ul>
+
+        <ul class="rightlist">
+
+            <li><a href="">Gaming Laptops</a></li>
+            <li><a href="">Ultrabooks</a></li>
+            <li><a href="">Chromebooks</a></li>
+            <li><a href="">Touchscreen Laptops</a></li>
+            <li><a href="">Lightweight Laptops</a></li>
+            <li><a href="">More...</a></li>
+
+        </ul>
+
+    </div>
+
+</body>
+</html>
