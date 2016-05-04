@@ -18,34 +18,26 @@
 </head>
 
 <body>
-  <div id="header">
-    <p id= "pageTitle" href="index.html">MY LAPTOP SHOP</p>
-    <div class="SearchBarContainer" style="align: right">
 
-  		<div id="SearchBar">
+<!-- navbar on top -->
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="index.html"><b><h4><span class="fa fa-home fa-2x"></span> Technology Shopping Support Environment</h4></b></a>
+          </div>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href=""><h4>About</h4></a></li>
+                  <li><a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a></li>
+                  <li><a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a></li>
+                  <li><a href=""><i id="social-tw" class="fa fa-github-square fa-3x social"></i></a></li> 
+              </ul>
+          </div>
+  </nav>
 
-  			<form action="javascript:void(0);" method="GET">
 
-  				<fieldset class="clearfix">
-
-  					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
-  					<input type="submit" value="Search" class="button">
-
-  				</fieldset>
-
-  			</form>
-
-  		</div> <!-- end search bar  -->
-
-  	</div> <!-- end container -->
-
-  </div>
-
-  <div id="wrapper">
-  <div id="resultsGrid">
+<!-- thumbnails -->
     <div class="container">
-
-    <div id="productlist" class="row">
+      <div id="productlist" class="row">
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Samsung</span></h4>
@@ -134,9 +126,6 @@
 
 </div>
 
-  </div>
-  <div id="filters">
-  </div>
-  </div>
+
 </body>
 </html>
