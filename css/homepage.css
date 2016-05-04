@@ -9,6 +9,11 @@ body {
 	font: 14px/1.5em "Open Sans", sans-serif;
 	margin: 0;
     overflow-y: scroll;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+
 }
 
 fieldset {
@@ -43,11 +48,11 @@ input[type="search"]::-webkit-search-decoration {
 .clearfix { *zoom: 1; }
 .clearfix:before, .clearfix:after {
 	content: "";
-	display: table;	
+	display: table;
 }
 .clearfix:after { clear: both; }
 
-.container {
+.SearchBarContainer {
 	height: 44px;
 	left: 50%;
 	margin: -22px 0 0 -141px;
@@ -69,57 +74,57 @@ h1.logo {
 
 
 ul {
-    
+
     display: inline-block;
     top: 50%;
     left: 50%;
     position: fixed;
     font: 2em;
 }
-    
+
 ul.leftlist {
-    
-    margin: 40px 0 0 -170px; 
-    
-}    
+
+    margin: 40px 0 0 -170px;
+
+}
 
 ul.rightlist    {
-    
+
     margin: 40px 0 0 0;
 }
-    
+
     /*top: 25%;
     left: 35%;
-    
+
 }
 
 /* ---------- SEARCH ---------- */
 
-#search {
+#SearchBar {
 	background: #42454e;
 	border-radius: 3px;
 	display: inline-block;
 	padding: 7px;
 }
 
-#search input {
+#SearchBar input {
 	float: left;
 }
 
-#search input[type="search"],
-#search input[type="submit"] {
+#SearchBar input[type="search"],
+#SearchBar input[type="submit"] {
 	border-radius: 3px;
 	font-size: 12px;
 }
 
-#search input[type="search"] {
+#SearchBar input[type="search"] {
 	background: #fff;
 	color: #42454e;
 	min-width: 184px;
 	padding: 6px 8px;
 }
 
-#search input[type="submit"] {
+#SearchBar input[type="submit"] {
 	background: #ff7086;
 	color: #fff;
 	font-weight: bold;
@@ -127,10 +132,10 @@ ul.rightlist    {
 	padding: 6px 10px;
 }
 
-#search input[type="submit"]:hover {
+#SearchBar input[type="submit"]:hover {
 	background: #ff3f5d;
 }
 
-#search input[type="search"]::-webkit-input-placeholder { color: #42454e; }
-#search input[type="search"]:-moz-placeholder { color: #42454e; }
-#search input[type="search"]:-ms-input-placeholder { color: #42454e; }
+#SearchBar input[type="search"]::-webkit-input-placeholder { color: #42454e; }
+#SearchBar input[type="search"]:-moz-placeholder { color: #42454e; }
+#SearchBar input[type="search"]:-ms-input-placeholder { color: #42454e; }

@@ -1,7 +1,19 @@
 /*css document*/
 #header{
+  height: 120px;
+  width: 100%;
+  background-color: #ffffff;
 
   }
+
+#pageTitle{
+  text-align: left;
+  margin-left: 20px;
+  vertical-align: middle;
+  font-size:medium;
+  color: #4d004d;
+
+}
 #resultsGrid{
 
 }

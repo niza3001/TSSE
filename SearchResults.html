@@ -8,6 +8,7 @@
 	<title>Search Results</title>
 
 	<link rel="stylesheet" type="text/css" href="css/searchResult.css" >
+  <link rel="stylesheet" type="text/css" href="css/homepage.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Optional Bootstrap theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
@@ -18,6 +19,26 @@
 
 <body>
   <div id="header">
+    <p id= "pageTitle" href="index.html">MY LAPTOP SHOP</p>
+    <div class="SearchBarContainer" style="align: right">
+
+  		<div id="SearchBar">
+
+  			<form action="javascript:void(0);" method="GET">
+
+  				<fieldset class="clearfix">
+
+  					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+  					<input type="submit" value="Search" class="button">
+
+  				</fieldset>
+
+  			</form>
+
+  		</div> <!-- end search bar  -->
+
+  	</div> <!-- end container -->
+
   </div>
   <div id="wrapper">
   <div id="resultsGrid">
