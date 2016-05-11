@@ -68,7 +68,7 @@ var prdct6 {
   "name" : "HP Stream"
   "processor" : "celeron n3050 1.6 GHz	"
   "Memory" : "2 GB SDRAM"
-  "storage" : "0 GB	"
+  "storage" : "32 GB	"
   "weight" : "2.6 pounds"
   "price" : "199.99"
   "screen_size" : "11.6-Inch"
